@@ -3,10 +3,10 @@ application-prod.yml
 
 .gradle
 build/
-gradle/**
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+src/main/generated
 
 ### STS ###
 .apt_generated
