@@ -13,7 +13,7 @@ public class OrderserviceBack202410Application {
 
     @GetMapping("/")
     public String home() {
-        return "the server is running!";
+        return "the server is running!!";
     }
 
 }
