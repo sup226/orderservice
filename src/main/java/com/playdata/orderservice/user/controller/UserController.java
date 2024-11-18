@@ -47,7 +47,7 @@ public class UserController {
 
         // CREATED: 201
         CommonResDto resDto
-                = new CommonResDto(HttpStatus.CREATED, "member create 성공!", user.getId());
+                = new CommonResDto(HttpStatus.CREATED, "member create 성공", user.getId());
         return new ResponseEntity<>(resDto, HttpStatus.CREATED);
     }
 
